@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>jahanzaib shahid</title>
+
+        <style>
+
+           body
+           {
+              padding: 0;
+              margin: 0;
+           }
+         .container
+         {
+             background:whitesmoke;
+             width: 720px;
+             margin: 0 0 0 300px;
+             display: grid;
+             grid-template-columns: repeat(3, [col_start] 1fr [col_end]);
+             grid-template-rows: [header_start] 120px [header_end menu_start] 60px [menu_end box_start] 80px [box_end content_start] 250px [content_end footer_end] 50px [footer_end];
+             grid-gap: 15px;
+         }
+
+         h1
+         {
+            padding: 5px 0 0 10px;
+             color: white;
+         }
+         
+         .header
+         {
+            background: red;
+            grid-column: col_start 1 / -1;
+            grid-row: header_start / header_end;
+         }
+         .menu
+         {
+            background: yellowgreen;
+            grid-column: col_start 1 / -1;
+            grid-row: menu_start/ menu_end;
+         }
+         .box1
+         {
+            background: #87cefa;
+            grid-column: col_start 1 / col_end 1;
+            grid-row: box_start/box_end;
+         }
+         .box2
+         {
+            background: pink;
+            grid-column: col_start 2 / col_end 2;
+            grid-row: box_start/box_end;
+         }
+         .slider
+         {
+            background: blueviolet;
+            grid-column: col_start 3 / col_end 3;
+            grid-row: box_start / content_end;
+         }
+         .content
+         {
+            background: cadetblue;
+            grid-column: col_start 1/ col_end 2;
+            grid-row: content_start / content_end;
+         }
+         .footer
+         {
+            background: orange;
+            grid-column:  col_start 1 / -1;
+            grid-row: footer_start / footer_end;
+         }
+
+        </style>
+        
+    </head>
+
+    <body>
+
+      <div class="container">
+
+            <div class="header"><h1>header</h1></div>
+            <div class="menu"><h1>menu</h1></div>
+            <div class="box1"><h1>box1</h1></div>
+            <div class="box2"><h1>box2</h1></div>
+            <div class="slider"><h1>slider</h1></div>
+            <div class="content"><h1>content</h1></div>
+            <div class="footer"><h1>footer</h1></div>
+            
+      </div>
+      
+    </body>
+
+
+</html>

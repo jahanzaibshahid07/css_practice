@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>jahanzaib shahid</title>
+
+        <style>
+            body
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: slategray;
+                margin: 0;
+                padding: 0;
+            }
+            #container
+            {
+                border:0px solid black;
+                width: 1000px;
+                background: white;
+                margin: 0 auto;
+            }
+            #header
+            {
+                background: crimson;
+                height: 100px;
+                color: white;
+            }
+            #header h1
+            {
+                margin-top: 0px;
+                padding: 30px 0 0 20px;
+            }
+            #menu
+            {
+                background: salmon;
+            }
+            #menu ul
+            {
+                margin: 0px;
+                padding: 0px;
+            }
+            #menu li
+            {
+                display: inline-block;
+            }
+            #menu li a
+            {
+                display: block;
+                padding: 10px 13px;
+                text-decoration: none;
+                color: black;
+            }
+            #menu li a:hover
+            {
+                background: crimson;
+                color: white;
+            }
+            #content
+            {
+                width: 800px;
+                padding: 10px;
+                min-height: 400px;
+                float: left;
+                box-sizing: border-box;
+                
+            }
+            #slidebar
+            {
+                background: lightblue;
+                width: 200px;
+                min-height: 400px;
+                float: right;
+            }
+            #slidebar a
+            {
+                text-decoration: none;
+                color: black;
+            }
+            #footer
+            {
+                background: salmon;
+                padding: 5px 10px;
+                text-align: right;
+                clear: both;
+            }
+
+            @media screen and (max-width: 1010px){
+                #container
+                {
+                    width: 800px;
+                }   
+                #content
+                {
+                    width: 80%;
+                }
+                #slidebar
+                {
+                    width: 18%;
+                }
+            }
+            @media screen and (max-width: 810px){
+                #container
+                {
+                    width: 505px;
+                }   
+                #content
+                {
+                    width: 65%;
+                }
+                #slidebar
+                {
+                    width: 34%;
+                }
+            }
+            @media screen and (max-width: 510px){
+                #container
+                {
+                    width: auto;
+                }   
+                #content
+                {
+                    width: 100%;
+                    float: none;
+                }
+                #slidebar
+                {
+                    width: 100%;
+                    float: none;
+                }
+            }
+            
+        </style>
+    </head>
+
+    <body>
+
+        <div id="container">
+
+            <div id="header">
+                <h1>Jahanzaib shahid</h1>
+                <!-- <span> <strong>Jahanzaib shahid</strong> </span> -->
+            </div>
+
+            <div id="menu">
+                <ul>
+                    <li> <a href="">Home</a></li>
+                    <li> <a href="">About</a></li>
+                    <li> <a href="">Contact</a></li>
+                    <li> <a href="">Service</a></li>
+                </ul>
+            </div>
+
+            <div id="content">
+                <h3>Basic Layout</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laboriosam ipsum minima porro. Ullam, hic pariatur nostrum consequatur aliquid doloremque accusantium quasi rerum impedit laboriosam sint illum repellendus ea rem.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque vero quod possimus impedit nesciunt aut iste incidunt cupiditate ex nihil, amet sequi, soluta animi necessitatibus ratione sed aperiam quisquam veniam?</p>
+                <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quidem, ipsa necessitatibus voluptas ut dolorem deserunt vero debitis ullam aspernatur eligendi at accusantium deleniti placeat modi. Ex eveniet tempore ratione.</P>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi magni, officiis at quidem libero deserunt corrupti numquam facere? Possimus omnis commodi sapiente quasi doloribus, earum veritatis similique accusantium. Assumenda, natus!</p>
+            </div>
+
+            <div id="slidebar">
+                <ul>
+                    <li> <a href="">Home</a></li>
+                    <li> <a href="">About</a></li>
+                    <li> <a href="">Contact</a></li>
+                    <li> <a href="">Service</a></li>
+                </ul>
+            </div>
+
+            <div id="footer">
+                <p> jahanzaib shahid @copyright 2020</p>
+            </div>
+        </div>
+
+    </body>
+
+
+</html>
